@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+   <meta charset="utf-8"/>
+   <title>演習課題2</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 align="center">演習問題２</h1>
+    <ul class="sample1">
+        <li> head要素</li>
+        <hl align="left"> head要素とはページが読み込まれてもWebブラウザに
+            表示されない部分のとこを指す。<br>例えば、＜title＞やCSSへのリンクの情報等の外部に見せたくないものを書く場所である。<br>
+            その代わり、headには文書のメタデータ(データを記述するデータ)が含まれる。大きなWebサイトではheadに多くの項目が入ることもある。<br>
+            今回は＜title＞要素と＜meta＞要素を用いた例と実行結果を示す。
+            
+                <li>マークアップ例</li>
+                <pre>
+                    <code>
+                        &lt;! DOCUTYPE html&gt;
+                        &lt;html&gt;
+                           &lt;head&gt;
+                             &lt;meta charset="utf-8"&gt;
+                             &lt;title>演習問題２&gt;
+                           &lt;/head&gt;
+                           &lt;body&gt;
+                             &lt;p&gt;これはテストです&lt;/p&gt;
+                           &lt;/body&gt;
+                        &lt;/html&gt; 
+                    </code>
+                  </pre>
+
+                
+                <li>実行結果</li> 
+                <img src="head1.png"width ="500px">
+            
+
+        </hl>
+         <li> The h1,h2,h3,h4,h5 and h6要素</li> 
+         <hl align="left"> h1~h6の各要素はセクションの見出しのことを指す。各数字は見出しのレベルを表しており、数字が低いほどレベルが高いものとなっている。<br>
+            この見出しのレベルは文章のアウトラインに影響を与える。また、数値が等しければ文書内で同一レベルとして扱われる。<br>
+            以下に使用例と実行結果を示す。
+            ul>
+            <li>マークアップ例</li>
+            <pre>
+                <code>
+                    &lt;! DOCUTYPE html&gt;
+                    &lt;html&gt;
+                       &lt;head&gt;
+                         &lt;meta charset="utf-8"&gt;
+                         &lt;title>演習問題２&gt;
+                       &lt;/head&gt;
+                       &lt;body&gt;
+                         &lt;h1 align="left">メインの見出し&lt;/h1&gt;
+                         &lt;h2 align="left">通常の見出し&lt;/h2&gt;
+                         &lt;h3 align="left">小見出し&lt;/h3&gt;
+                       &lt;/body&gt;
+                    &lt;/html&gt; 
+                </code>
+              </pre>
+
+           
+            <li>実行結果</li> 
+            <img src="h1.png"width ="500px">
+        
+        <li>section要素</li>
+        <hl align="left"> section要素とは文書の自立した一般的なセクション(区間)を表す。ここにおけるsectionとは、コンテンツをテーマ別に分けたものである。<br>
+            文書における章や段落のことをさす。先ほど紹介したh1~h6の要素を用いて使用することが多い。<br>
+            以下に使用例と実行結果を示す。
+            <li>マークアップ例</li>
+            <pre>
+                <code>
+                    &lt;! DOCUTYPE html&gt;
+                    &lt;html&gt;
+                       &lt;head&gt;
+                         &lt;meta charset="utf-8"&gt;
+                         &lt;title>演習問題２&gt;
+                       &lt;/head&gt;
+                       &lt;body&gt;
+                         &lt;section&gt;
+                             &lt;h1&gt; 見出しA&lt;/h1&gt;
+                             &lt;p&gt;一つ目のセクション &lt;/p&gt;
+                         &lt;/section&gt;
+                         &lt;section&gt;
+                             &lt;h1&gt; 見出しA&lt;/h1&gt;
+                             &lt;p&gt; 二つ目のセクション&lt;/p&gt;
+                         &lt;/section&gt;
+                       &lt;/body&gt;
+                    &lt;/html&gt; 
+                </code>
+              </pre>
+
+           
+            <li>実行結果</li> 
+            <img src="section1.png"width ="500px">
+        </ul> 
+      </ul>
+
+    </div>
+</body>
